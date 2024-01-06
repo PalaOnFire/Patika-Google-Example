@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Example</title>
+
+    <style>
+        body {
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        .google-image {
+            display: flex;
+            position: relative;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding-top: 50px;
+        }
+
+        .search-box {
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            background-color: #dedede;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            margin-bottom: 5px;
+        }
+
+        .search-input {
+            width: 450px;
+            margin-bottom: 10px;
+        }
+
+        .bottom-boxes {
+            display: flex;
+        }
+
+        .box-1{
+            display: flex;
+            flex-direction: column;
+            background-color: cyan;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+            height: 100px;
+            margin-right: 5px;
+        }
+
+        .box-2{
+            display: flex;
+            flex-direction: column;
+            background-color: mediumturquoise;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 20%;
+            margin-right: 5px;
+        }
+
+        .box-3{
+            display: flex;
+            flex-direction: column;
+            background-color: darkcyan;
+            position: relative;
+            align-items: center;
+            justify-content: center;
+            width: 40%;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Google logosunun bulunduğu div -->
+    <div class="google-image">
+        <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Google Logo">
+    </div>
+
+    <!-- Arama işleminin yapılacağı div -->
+    <div class="search-box">
+        <p class="search-title">
+            Search the web using Google!
+        </p>
+        <input class="search-input" type="text">
+        <div class="search-buttons">
+            <button>Google Search</button>
+            <button>I'm feeling lucky</button>
+        </div>
+    </div>
+
+    <!-- 3 adet kutu div -->
+    <div class="bottom-boxes">
+        <div class="box-1">
+            <p style="margin-bottom: 0; margin-top: 0;">Special Searches</p>
+            <a href="https://www.stanford.edu/search/">Stanford Search</a>
+            <a href="https://www.google.com/search?channel=fs&client=ubuntu-sn&q=linux+search">Linux Search</a>
+        </div>
+        <div class="box-2">
+            <a href="https://www.google.com/search?channel=fs&client=ubuntu-sn&q=help+%21">Help!</a>
+            <a href="https://about.google/">About Google</a>
+            <a href="https://www.patika.dev/tr">Company Info</a>
+            <a href="https://www.google.com/search?q=google+logos&client=ubuntu-sn&hs=Lj7&sca_esv=596181589&channel=fs&tbm=isch&source=lnms&sa=X&ved=2ahUKEwjone_avsiDAxU2QvEDHYMzCAMQ_AUoAXoECAIQAw&biw=1920&bih=869">Google Logos</a>
+        </div>
+        <div class="box-3">
+            <p style="margin-top: 0; margin-bottom: 0;">Get Google!</p>
+            <p style="margin-top: 0; margin-bottom: 0;">updates monthly:</p>
+            <input type="text" style="width: 230px;" placeholder="your e-mail">
+            <div class="box-3__buttons">
+                <button>Subscribe</button>
+                <a href="https://get.google.com/albumarchive/">Archive</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
